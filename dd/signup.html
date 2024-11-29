@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup - MediBridge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .signup-container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .signup-container h2 {
+            color: #2a9d8f;
+            margin-bottom: 20px;
+        }
+        .signup-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .signup-container input[type="text"],
+        .signup-container input[type="email"],
+        .signup-container input[type="password"] {
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .signup-container a.signup-button {
+            display: inline-block;
+            background-color: #2a9d8f;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            width: 100%;
+        }
+        .signup-container a.signup-button:hover {
+            background-color: #21867a;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Create Your Account</h2>
+        <form action="/signup" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <a href="http://127.0.0.1:5500/medi%20bridge/index.html" class="signup-button">Sign Up</a> <!-- Signup button as a link -->
+        </form>
+    </div>
+</body>
+</html>

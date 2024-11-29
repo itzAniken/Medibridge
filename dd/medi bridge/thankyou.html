@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | MediBridge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #4CAF50;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #FF9800;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        a:hover {
+            color: #e64a19;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You, Arpit!</h1>
+        <p>We have received your consultation request. Our team will get back to you shortly via email as per your concern.</p>
+        <p>In the meantime, please read our guide on <a href="http://127.0.0.1:5500/what_to_do_before_coming_to_india.html" target="_blank">What to Do Before Coming to India</a> to make your medical trip smoother.</p>
+        <button class="btn" onclick="showThankYouAlert()"><a href="http://127.0.0.1:5500/index.html">Continue</a></button>
+    </div>
+
+    <script>
+        // Function to show a thank-you message when the button is clicked
+        function showThankYouAlert() {
+            alert('Thank you for reaching out, Arpit! We will be in touch soon.');
+        }
+
+        // Display an initial welcome alert when the page loads
+        window.onload = function() {
+            alert('Welcome, Arpit! We have received your message. Please check your email shortly.');
+        }
+    </script>
+</body>
+</html>

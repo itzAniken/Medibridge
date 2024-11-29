@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediBridge Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .login-container h2 {
+            color: #2a9d8f;
+            margin-bottom: 20px;
+        }
+        .login-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .login-container a.login-button {
+            display: inline-block;
+            background-color: #2a9d8f;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            width: 100%;
+        }
+        .login-container a.login-button:hover {
+            background-color: #21867a;
+        }
+        .login-container p {
+            margin: 15px 0 0;
+        }
+        .login-container a {
+            color: #2a9d8f;
+            text-decoration: none;
+        }
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to MediBridge</h2>
+        <form action="/login" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <a href="http://127.0.0.1:5500/medi%20bridge/index.html" class="login-button">Login</a> <!-- Login button as a link -->
+        </form>
+        <p>Don't have an account? <a href="http://127.0.0.1:5500/signup.html">Sign up</a></p>
+    </div>
+</body>
+</html>

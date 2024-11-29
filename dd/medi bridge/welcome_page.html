@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="welcome_page.css">
+</head>
+<body>
+    <!-- Welcome Section -->
+    <div class="welcome-container">
+        <h1 class="welcome-text">Welcome to <span>MediBridge</span></h1>
+        <p>Your journey to world-class healthcare starts here.</p>
+        <button class="interactive-button" onclick="alert('Welcome! Let us guide you to better health.')"><a href="http://127.0.0.1:5500/index.html">Click Here</a></button>
+    </div>
+
+    <!-- Decorative Circles for Animation -->
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+    <div class="circle circle3"></div>
+
+    <script>
+        // Optional JavaScript to add interactivity to the button
+        document.querySelector(".interactive-button").addEventListener("click", () => {
+            alert("Welcome to MediBridge!");
+        });
+    </script>
+</body>
+</html>
