@@ -1,0 +1,136 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+    background-color: #084d8a;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header h1 span {
+    color: #fdd835;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Main Content */
+.content {
+    padding: 40px 20px;
+}
+
+/* Steps Section */
+.steps-section {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.steps-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #084d8a;
+    margin-bottom: 20px;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.step {
+    background: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.step i {
+    font-size: 2.5rem;
+    color: #084d8a;
+    margin-bottom: 15px;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    color: #084d8a;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Tips Section */
+.tips-section {
+    background-color: #084d8a;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tips-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.tips-list {
+    list-style-type: disc;
+    margin: 20px auto;
+    max-width: 800px;
+    padding-left: 40px;
+    font-size: 1rem;
+}
+
+.tips-list li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #084d8a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1rem;
+}

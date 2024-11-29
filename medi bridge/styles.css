@@ -1,0 +1,245 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+header {
+    background:  #2a9d8f;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+.slogan {
+    text-align: center;
+    background:  #2a9d8f;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Dropdown Menu Style */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none; /* Initially hide the dropdown */
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    padding: 8px 12px;
+}
+
+.dropdown-menu li a {
+    color: #333;
+    display: block;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    background-color:  #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color:  #2a9d8f;
+}
+
+/* Style for Arrow Icon */
+.fas.fa-caret-down {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+/* Form and Action Buttons */
+.consultation-section {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.consultation-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.discount-btn {
+    font-size: 18px;
+    padding: 15px 30px;
+    background-color: #2a9d8f;
+    color: white;
+    cursor: pointer;
+}
+
+.discount-btn:hover {
+    background-color:  #2a9d8f;
+}
+/* Testimonials Section */
+.testimonials-section {
+    background-color: #f1f1f1; /* Light grey background */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    color:  #2a9d8f;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color:  #2a9d8f;
+}
+
+/* Contact Us Section */
+.contact-section {
+    background-color:  #2a9d8f; /* Blue background for contact section */
+    color: #fff;
+    padding: 60px 0;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-section .form-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-section .btn {
+    font-size: 16px;
+    padding: 15px 30px;
+    background-color:  #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-section .btn:hover {
+    background-color:  #2a9d8f;
+}
+
+#appy{
+    text-align: center;
+    text-size-adjust:200px;
+}
+#vini{
+    font-size: xxx-large;
+}
+
